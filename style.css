@@ -29,21 +29,21 @@ footer{
 
 /* media query  */
 @media only screen and (max-width:688px) {
+    .slider-section img {
+        height: 300px;          
+        }
     .div-section p{
-        display: flex;
-        align-items: flex-end;
-        display: none;
-        
+        display: none;      
     }
        
     
 }
 @media only screen and (min-width:688px) and (max-width:768px){
+.slider-section img {
+        height: 400px;
+    }
     .div-section p {
-        display: flex;
-        align-items: flex-end;
         display: none;
-
     }
 
 
