@@ -26,3 +26,25 @@
 footer{
     background-color:  #0B0D17;;
 }
+
+/* media query  */
+@media only screen and (max-width:688px) {
+    .div-section p{
+        display: flex;
+        align-items: flex-end;
+        display: none;
+        
+    }
+       
+    
+}
+@media only screen and (min-width:688px) and (max-width:768px){
+    .div-section p {
+        display: flex;
+        align-items: flex-end;
+        display: none;
+
+    }
+
+
+}
